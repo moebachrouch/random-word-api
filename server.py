@@ -13,7 +13,7 @@ def getRandomWord():
 
     randomWord = random.choice(WORDS).decode('UTF-8')
 
-    return jsonify({"msg": randomWord})
+    return jsonify({"word": randomWord})
 
 
 if __name__ == "__main__":
